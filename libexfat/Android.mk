@@ -1,6 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 
+<<<<<<< HEAD
 common_src_files = cluster.c io.c log.c lookup.c mount.c node.c time.c utils.c
+=======
+common_src_files = cluster.c io.c log.c lookup.c mount.c node.c time.c utf.c utils.c
+>>>>>>> 6be35da... Add support for building on Android
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libexfat
